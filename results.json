@@ -11,16 +11,30 @@
       "test": "test parse_file/1 parses the file"
     },
     {
+      "describe": "build_from_many/1",
+      "file": "c:/Users/marce/Documents/elixir/gen_report/test/gen_report_test.exs",
+      "line": 31,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When no filenames was given, returns an error"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "c:/Users/marce/Documents/elixir/gen_report/test/gen_report_test.exs",
+      "line": 25,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When a file list is provided, builds the report"
+    },
+    {
       "describe": "build/1",
       "file": "c:/Users/marce/Documents/elixir/gen_report/test/gen_report_test.exs",
-      "line": 10,
+      "line": 11,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When passing file name return a report"
     },
     {
       "describe": "build/1",
       "file": "c:/Users/marce/Documents/elixir/gen_report/test/gen_report_test.exs",
-      "line": 16,
+      "line": 17,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When no filename was given, returns an error"
     }
